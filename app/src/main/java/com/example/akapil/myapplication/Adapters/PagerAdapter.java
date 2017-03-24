@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.example.akapil.myapplication.Fragments.FourthFragment;
 import com.example.akapil.myapplication.Fragments.OneFragment;
 import com.example.akapil.myapplication.Fragments.ThreeFragment;
 import com.example.akapil.myapplication.Fragments.TwoFragment;
@@ -33,6 +34,9 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
             case 2:
                 ThreeFragment tab3 = new ThreeFragment();
                 return tab3;
+            case 3:
+                FourthFragment tab4 = new FourthFragment();
+                return tab4;
             default:
                 return null;
         }
