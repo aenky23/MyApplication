@@ -4,11 +4,19 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.TwoFragment">
 
+    <EditText
+        android:id="@+id/search_bar_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:hint="Search.." />
+
     <ListView
         android:id="@+id/list_json"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"></ListView>
+        android:layout_below="@+id/search_bar_fragment"
+        android:layout_margin="10dp"></ListView>
 
 </RelativeLayout>
